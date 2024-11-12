@@ -1,0 +1,84 @@
+/* Home.css */
+
+.home-container {
+  /* width: 850px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* min-height: 60vh; */
+  padding: 100px 150px;
+  background: transparent;
+  backdrop-filter: blur(70px);
+  border: 2px solid rgb(255, 255, 255, .2);
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 30px;
+  color: #fcfcfc;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 18px;
+  color: #fcfcfc;
+  margin: 30px 0 10px;
+}
+
+.button {
+  display: inline-block;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.login-button {
+  background-color: #49a58d;
+  color: black;
+  padding: 10px 30px;
+}
+
+.register-button {
+  padding: 10px 20px;
+  background-color: #66a1b5;
+  color: black;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.profile-button {
+  padding: 10px 20px;
+  background-color: #57bad5;
+  color: black;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background-color: #e4963e;
+  color: black;
+  font-weight: bold;
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.username-highlight {
+  font-weight: bold;
+  color: #2c83bd; /* A nice blue color for emphasis */
+  background-color: #eaf4fc; /* Light blue background */
+  padding: 1px 5px;
+  border-radius: 10px;
+  margin-left: 3px;
+}

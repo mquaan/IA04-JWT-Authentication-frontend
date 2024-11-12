@@ -1,0 +1,27 @@
+.home-button {
+  display: flex;
+  position: fixed;
+  top: 25px;
+  left: 20px;
+  padding: 0 20px; /* Button padding */
+  background-color: #70704f; /* Bootstrap primary color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 15px; /* Rounded corners */
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-button .icon {
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+
+.home-button p{
+  font-size: 14px;
+}
+
+.home-button:hover {
+  background-color: #4b4b2a; /* Darker shade on hover */
+}
