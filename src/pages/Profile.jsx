@@ -6,7 +6,7 @@ import { useAuth } from '../context/AuthContext';
 import '../styles/Profile.css';
 
 function Profile() {
-  const url = 'http://localhost:3000/profile';
+  const url = 'https://web-production-5dcd.up.railway.app/profile';
   const { isLoggedIn } = useAuth();
   const [userData, setUserData] = useState(null);  // Use context user data if available
   const [error, setError] = useState(null);

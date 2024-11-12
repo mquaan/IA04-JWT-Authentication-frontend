@@ -9,7 +9,7 @@ import StatusMessage from './StatusMessage';
 
 
 function RegistrationForm() {
-  const url = 'http://localhost:3000/register';
+  const url = 'https://web-production-5dcd.up.railway.app/register';
   const { register, handleSubmit, formState: { errors } } = useForm();
   const [status, setStatus] = useState({ message: '', type: '' });
   const navigate = useNavigate();

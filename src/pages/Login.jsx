@@ -16,10 +16,6 @@ function Login() {
 
   return (
     <div>
-      {/* <Link to="/" className="home-button">
-        <FaHome className='icon'/>
-        <p>Home</p>
-      </Link> */}
       <LoginForm />
     </div>
   );

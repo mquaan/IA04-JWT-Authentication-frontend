@@ -8,7 +8,7 @@ import StatusMessage from './StatusMessage';
 import { useAuth } from '../context/AuthContext';
 
 function LoginForm() {  
-  const url = 'http://localhost:3000/login';
+  const url = 'https://web-production-5dcd.up.railway.app/login';
   const { register, handleSubmit, formState: { errors } } = useForm();
   const navigate = useNavigate();
   const { login } = useAuth();
